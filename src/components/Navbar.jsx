@@ -30,7 +30,7 @@ const Navbar = () => {
     setCurrentUser(null);
   };
   return (
-    <div className="w-3/4 md:w-1/2 m-auto">
+    <div className="w-full md:w-1/2 m-auto">
       {currentUser ? (
         <div className="flex justify-between items-center">
           <div className="flex justify-between items-center">

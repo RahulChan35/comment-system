@@ -8,7 +8,7 @@ const Main = () => {
     useGlobalContext();
 
   return (
-    <div className="w-3/4 md:w-1/2 m-auto mt-2 mb-5 border-2 border-gray-300 rounded-lg p-10">
+    <div className="w-full md:w-1/2 m-auto mt-2 mb-5 border-2 border-gray-300 rounded-lg p-10">
       <div className="w-full flex justify-between items-center">
         <h1 className="font-bold">Comments({noOfComments})</h1>
         <div className="flex flex-col md:flex-row justify-between">
